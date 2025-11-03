@@ -14,11 +14,7 @@ declare_id!("Eya9GTKqj9JF3B3U2sitKEa419dSyBhZ4qJAoCtGx2gX");
 pub mod whitelist_transfer {
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
-        msg!("Greetings from: {:?}", ctx.program_id);
-        Ok(())
-    }
+  
 }
 
-#[derive(Accounts)]
-pub struct Initialize {}
+
